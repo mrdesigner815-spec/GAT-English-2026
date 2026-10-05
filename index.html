@@ -14,6 +14,11 @@
     .test-shell{width:min(1120px,calc(100% - 28px));margin:24px auto 56px}.topbar{position:sticky;top:12px;z-index:10;background:#ffffffed;backdrop-filter:blur(12px);border:1px solid #fff;border-radius:18px;box-shadow:0 8px 28px #16325016;padding:14px 18px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px}.mini-brand{font-weight:900;color:var(--blue)}.progress-track{height:8px;border-radius:99px;background:#e5edf6;overflow:hidden}.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));transition:.3s}.counter{font-size:.86rem;font-weight:800;white-space:nowrap}.test-head{padding:54px 8px 20px}.test-head h1{margin:0;font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.035em}.test-head p{color:var(--muted);line-height:1.65}.candidate-summary{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.candidate-summary span{padding:9px 13px;border-radius:10px;background:#fff;border:1px solid var(--line);font-size:.88rem;font-weight:750}
     .section-card{background:var(--paper);border:1px solid #fff;border-radius:22px;box-shadow:0 10px 34px #1d38570d;margin-top:22px;overflow:hidden}.section-title{padding:25px 28px;background:linear-gradient(100deg,#f4f8fd,#edf7fb);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:15px}.section-title h2{margin:0;font-size:1.35rem}.section-title span{font-size:.8rem;font-weight:850;color:var(--blue);background:#fff;padding:7px 10px;border-radius:99px;border:1px solid var(--line)}.passage{margin:24px 28px 0;padding:24px;border:1px solid #bed6ed;border-left:5px solid var(--blue);border-radius:14px;background:#f7fbff}.passage h3{margin:0 0 12px;color:var(--blue);font-size:1rem}.passage p{margin:0;color:#273b54;line-height:1.82;font-size:1rem}.passage small{display:block;margin-top:12px;color:var(--muted);font-weight:800}.questions{padding:4px 28px 18px}.question{padding:25px 0;border-bottom:1px solid var(--line)}.question:last-child{border:0}.q-meta{display:flex;align-items:center;gap:9px;margin-bottom:10px}.q-no{color:var(--blue);font-weight:900}.question p{font-size:1.02rem;line-height:1.65;margin:0 0 14px}.options{display:grid;grid-template-columns:1fr 1fr;gap:10px}.option{position:relative}.option input{position:absolute;opacity:0;pointer-events:none}.option label{display:flex;gap:10px;align-items:flex-start;padding:12px 13px;border:1.5px solid var(--line);border-radius:11px;line-height:1.45;color:#33445a;transition:.18s}.option label:before{content:attr(data-letter);flex:0 0 25px;height:25px;display:grid;place-items:center;border-radius:7px;background:#edf3fa;color:var(--blue);font-size:.76rem;font-weight:900}.option input:checked+label{border-color:var(--blue);background:#edf4ff;color:var(--ink)}.option input:checked+label:before{background:var(--blue);color:#fff}.option.correct label{border-color:var(--good);background:#eaf8f3}.option.wrong label{border-color:var(--bad);background:#fff0f2}.feedback{margin-top:14px;padding:14px 16px;border-radius:11px;border-left:4px solid var(--bad);background:#fff5f6;color:#5d2430;line-height:1.6}.feedback strong{color:var(--bad)}.feedback.is-correct{border-left-color:var(--good);background:#eefaf5;color:#1d5945}.feedback.is-correct strong{color:var(--good)}
     .submit-wrap{text-align:center;padding:38px}.submit-btn{border:0;background:var(--blue);color:#fff;border-radius:14px;padding:16px 34px;font-weight:900;box-shadow:0 10px 24px #1358d13b}.warning{color:var(--bad);font-weight:700;margin-top:13px}.results{background:#fff;border-radius:24px;box-shadow:var(--shadow);padding:clamp(28px,6vw,58px);margin-top:26px;text-align:center}.score-ring{width:168px;height:168px;border-radius:50%;display:grid;place-items:center;margin:18px auto;background:conic-gradient(var(--blue) var(--score),#e5edf5 0);position:relative}.score-ring:after{content:"";position:absolute;inset:13px;background:#fff;border-radius:50%}.score-text{position:relative;z-index:1}.score-text strong{display:block;font-size:3.1rem;letter-spacing:-.06em}.score-text span{color:var(--muted);font-weight:800}.band{display:inline-block;padding:8px 14px;border-radius:99px;background:#eaf2ff;color:var(--blue);font-weight:900}.breakdown{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:30px 0}.break{background:#f3f7fb;border-radius:12px;padding:14px 8px}.break strong{display:block;font-size:1.45rem}.break small{color:var(--muted)}.actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.secondary{border:1px solid var(--line);background:#fff;color:var(--ink);padding:12px 18px;border-radius:11px;font-weight:800}@media(max-width:780px){.hero{grid-template-columns:1fr}.hero-side{padding:30px}.topbar{grid-template-columns:1fr auto}.progress-track{grid-column:1/-1;grid-row:2}.landing-candidate{grid-template-columns:1fr}.options{grid-template-columns:1fr}.questions{padding-inline:18px}.section-title{padding-inline:18px}.breakdown{grid-template-columns:1fr 1fr}.break:last-child{grid-column:1/-1}}@media print{body{background:#fff}.topbar,.submit-wrap,.actions,.landing{display:none!important}.test-shell{width:100%;margin:0}.section-card{box-shadow:none;break-inside:avoid}.results{box-shadow:none}}
+
+    .timer-panel{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;background:#eaf8f3;border:2px solid var(--good);border-radius:12px;font-variant-numeric:tabular-nums}.timer-panel span[role=status]{font-size:.85rem}.time-warning{background:#fff8df;border-color:#976500;color:#714b00}.time-critical{background:#fff0f2;border-color:var(--bad);color:#9c2030}
+    .analysis-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;text-align:left}.analysis-grid section{padding:18px;background:#f3f7fb;border-radius:14px}.analysis-grid h3{font-size:1rem;margin-top:0}.analysis-grid p,.report-note{line-height:1.6}.report-note{color:var(--muted);font-size:.9rem}.report-table-wrap{overflow-x:auto}.report-table{width:100%;border-collapse:collapse;text-align:left;font-size:.92rem;line-height:1.6}.report-table th,.report-table td{padding:12px;border:1px solid var(--line);vertical-align:top}.report-table thead{background:#edf4ff}.certificate{margin:36px auto;padding:40px 28px;border:6px double #b18224;border-radius:8px;background:#fffdf7;max-width:800px;overflow-wrap:anywhere}.certificate-brand{font-size:1.6rem;font-weight:900;color:var(--blue)}.certificate h2{font-size:2rem;color:#86601b}.certificate-name{font-size:2rem;margin:18px 0}.certificate-footer{font-weight:800;color:#86601b}.option input:focus-visible+label{outline:3px solid var(--blue);outline-offset:2px}
+    @media(max-width:780px){.timer-panel{flex-direction:column;align-items:flex-start}.analysis-grid{grid-template-columns:1fr}.certificate{padding:24px 14px}.report-table{min-width:520px}}
+    @media print{.test-head,#sections,.submit-wrap,.topbar{display:none!important}.results{padding:0;margin:0;border-radius:0}.results.hidden{display:none!important}.analysis-grid{grid-template-columns:1fr}.analysis-grid section,.report-table tr{break-inside:avoid}.report-table-wrap{overflow:visible}.report-table{min-width:0}.certificate{break-before:page;break-inside:avoid;background:#fff;box-shadow:none}.print-certificate #results>*:not(#certificate){display:none!important}.print-certificate .certificate{break-before:auto;margin:0;max-width:none}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
   </style>
 </head>
 <body>
@@ -23,8 +28,8 @@
         <div class="brand"><span class="brand-mark">M</span> Mindproo Academy</div>
         <p class="eyebrow">GAT Preparation</p>
         <h1>Verbal English<br><span>Placement Test</span></h1>
-        <p class="intro">A 40-mark assessment covering verbal relationships, grammar, vocabulary, and reading. Work carefully and choose one answer for every question.</p>
-        <div class="facts"><span class="fact">40 Questions</span><span class="fact">40 Marks</span><span class="fact">Advanced Verbal Skills</span><span class="fact">5 Sections</span></div>
+        <p class="intro">A 40-mark assessment covering verbal relationships, grammar, vocabulary, and reading. You have 90 minutes from Start. The test submits automatically when time expires, including unanswered questions. You can change answers and receive immediate feedback until submission.</p>
+        <div class="facts"><span class="fact">40 Questions</span><span class="fact">40 Marks</span><span class="fact">Advanced Verbal Skills</span><span class="fact">5 Sections</span><span class="fact">90 Minutes</span></div>
         <div class="landing-candidate">
           <label>Student's Name<input id="studentName" autocomplete="name" placeholder="Enter student's full name" required></label>
           <label>School<input id="schoolName" autocomplete="organization" placeholder="Enter school name" required></label>
@@ -47,8 +52,8 @@
   </main>
 
   <main id="test" class="test-shell hidden">
-    <nav class="topbar"><div class="mini-brand">Mindproo Academy</div><div class="progress-track"><div id="progressBar" class="progress-bar"></div></div><div id="counter" class="counter">0 / 40 answered</div></nav>
-    <header class="test-head"><h1>GAT Verbal English Test</h1><p>Select one answer per question. Each correct answer earns one mark.</p><div id="candidateSummary" class="candidate-summary"></div></header>
+    <nav class="topbar"><div class="mini-brand">Mindproo Academy</div><div class="progress-track"><div id="progressBar" class="progress-bar"></div></div><div id="counter" class="counter">0 / 40 answered</div><div id="timerPanel" class="timer-panel"><strong>Time left: <span id="timer">90:00</span></strong><span id="timerNotice" role="status" aria-live="polite">90-minute limit · Automatic submission</span></div></nav>
+    <header class="test-head"><h1>GAT Verbal English Test</h1><p>Select one answer per question. Each correct answer earns one mark. You may change your selection until submission. Unanswered questions earn zero marks.</p><div id="candidateSummary" class="candidate-summary"></div></header>
     <div id="sections"></div>
     <div class="submit-wrap"><button class="submit-btn" id="submitBtn">Submit and view score</button><div id="warning" class="warning hidden">Please answer every question before submitting.</div></div>
     <section id="results" class="results hidden" aria-live="polite"></section>
@@ -117,10 +122,105 @@ const all=sections.flatMap((s,si)=>s.qs.map((q,qi)=>({q,si,qi})));const letters=
 const host=document.getElementById('sections');let n=0;
 sections.forEach((s,si)=>{const card=document.createElement('section');card.className='section-card';card.innerHTML=`<div class="section-title"><div><h2>${si+1}. ${s.name}</h2><small>${s.instruction}</small></div><span>8 marks</span></div>${s.passage?`<div class="passage"><h3>Read the passage carefully</h3><p>${s.passage.replace(/\n\n/g,'<br><br>')}</p><small>200 words</small></div>`:''}<div class="questions"></div>`;const box=card.querySelector('.questions');s.qs.forEach((q,qi)=>{n++;const el=document.createElement('article');el.className='question';el.dataset.index=n-1;el.innerHTML=`<div class="q-meta"><span class="q-no">Question ${n}</span></div><p>${q[0]}</p><div class="options">${q[1].map((o,oi)=>`<div class="option"><input id="q${n}_${oi}" type="radio" name="q${n}" value="${oi}"><label for="q${n}_${oi}" data-letter="${letters[oi]}">${o}</label></div>`).join('')}</div><div class="feedback hidden" aria-live="polite"></div>`;box.appendChild(el)});host.appendChild(card)});
 function updateProgress(){const answered=document.querySelectorAll('input[type=radio]:checked').length;document.getElementById('counter').textContent=`${answered} / 40 answered`;document.getElementById('progressBar').style.width=`${answered/40*100}%`}
-document.addEventListener('change',e=>{if(!e.target.matches('input[type=radio]'))return;const question=e.target.closest('.question');const i=+question.dataset.index;const item=all[i];const picked=+e.target.value;const opts=question.querySelectorAll('input[type=radio]');const feedback=question.querySelector('.feedback');opts.forEach(input=>input.parentElement.classList.remove('correct','wrong'));feedback.classList.remove('is-correct');opts[item.q[2]].parentElement.classList.add('correct');if(picked===item.q[2]){feedback.classList.add('is-correct');feedback.innerHTML=`<strong>Correct answer: ${letters[item.q[2]]}. ${item.q[1][item.q[2]]}</strong><br>${explanations[i]}`}else{e.target.parentElement.classList.add('wrong');feedback.innerHTML=`<strong>Your answer is incorrect. Correct answer: ${letters[item.q[2]]}. ${item.q[1][item.q[2]]}</strong><br>${explanations[i]}`}feedback.classList.remove('hidden');document.getElementById('results').classList.add('hidden');document.getElementById('submitBtn').disabled=false;updateProgress()});
-document.getElementById('startBtn').onclick=()=>{const name=document.getElementById('studentName').value.trim();const school=document.getElementById('schoolName').value.trim();if(!name||!school){document.getElementById('landingError').classList.remove('hidden');(!name?document.getElementById('studentName'):document.getElementById('schoolName')).focus();return}document.getElementById('landingError').classList.add('hidden');document.getElementById('candidateSummary').innerHTML=`<span><strong>Student:</strong> ${escapeText(name)}</span><span><strong>School:</strong> ${escapeText(school)}</span>`;document.getElementById('landing').classList.add('hidden');document.getElementById('test').classList.remove('hidden');scrollTo(0,0)};
+const TEST_DURATION_MS=90*60*1000;
+let attemptStartedAt=null, deadline=null, timerInterval=null, completedAt=null, finished=false;
+const answers=Array(all.length).fill(null);
+const timerPanel=document.getElementById('timerPanel');
+function updateTimer(){
+ if(deadline===null||finished)return;
+ const remaining=Math.max(0,deadline-Date.now());
+ const seconds=Math.ceil(remaining/1000);
+ document.getElementById('timer').textContent=`${String(Math.floor(seconds/60)).padStart(2,'0')}:${String(seconds%60).padStart(2,'0')}`;
+ timerPanel.classList.toggle('time-warning',remaining<=10*60*1000);
+ timerPanel.classList.toggle('time-critical',remaining<=5*60*1000);
+ const notice=remaining<=5*60*1000?'5 minutes or less remaining · Submit your answers soon.':remaining<=10*60*1000?'10 minutes or less remaining · Automatic submission at 00:00.':'90-minute limit · Automatic submission';
+ const status=document.getElementById('timerNotice');
+ if(status.textContent!==notice)status.textContent=notice;
+ if(remaining===0)finishTest(true);
+}
+function restoreSelections(){
+ all.forEach((item,i)=>document.querySelectorAll(`input[name=q${i+1}]`).forEach(input=>{input.checked=answers[i]===Number(input.value)}));
+}
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)updateTimer()});
+window.addEventListener('focus',updateTimer);
+document.addEventListener('change',e=>{
+ if(!e.target.matches('input[type=radio]'))return;
+ if(finished||deadline===null){restoreSelections();return}
+ if(Date.now()>=deadline){restoreSelections();finishTest(true);return}
+ const question=e.target.closest('.question');const i=+question.dataset.index;const item=all[i];const picked=+e.target.value;
+ answers[i]=picked;
+ const opts=question.querySelectorAll('input[type=radio]');const feedback=question.querySelector('.feedback');
+ opts.forEach(input=>input.parentElement.classList.remove('correct','wrong'));feedback.classList.remove('is-correct');opts[item.q[2]].parentElement.classList.add('correct');
+ if(picked===item.q[2]){feedback.classList.add('is-correct');feedback.innerHTML=`<strong>Correct answer: ${letters[item.q[2]]}. ${item.q[1][item.q[2]]}</strong><br>${explanations[i]}`}else{e.target.parentElement.classList.add('wrong');feedback.innerHTML=`<strong>Your answer is incorrect. Correct answer: ${letters[item.q[2]]}. ${item.q[1][item.q[2]]}</strong><br>${explanations[i]}`}
+ feedback.classList.remove('hidden');document.getElementById('warning').classList.add('hidden');updateProgress();updateTimer();
+});
+document.getElementById('startBtn').onclick=()=>{
+ if(deadline!==null)return;
+ const name=document.getElementById('studentName').value.trim();const school=document.getElementById('schoolName').value.trim();
+ if(!name||!school){document.getElementById('landingError').classList.remove('hidden');(!name?document.getElementById('studentName'):document.getElementById('schoolName')).focus();return}
+ document.getElementById('landingError').classList.add('hidden');document.getElementById('candidateSummary').innerHTML=`<span><strong>Student:</strong> ${escapeText(name)}</span><span><strong>School:</strong> ${escapeText(school)}</span>`;
+ document.getElementById('landing').classList.add('hidden');document.getElementById('test').classList.remove('hidden');
+ attemptStartedAt=Date.now();deadline=attemptStartedAt+TEST_DURATION_MS;updateTimer();timerInterval=setInterval(updateTimer,1000);scrollTo(0,0);
+};
 function escapeText(value){return value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}
-document.getElementById('submitBtn').onclick=()=>{const picks=[...document.querySelectorAll('input[type=radio]:checked')];if(picks.length<40){document.getElementById('warning').classList.remove('hidden');const first=[...document.querySelectorAll('.question')].find(x=>!x.querySelector('input:checked'));first.scrollIntoView({behavior:'smooth',block:'center'});return}document.getElementById('warning').classList.add('hidden');let score=0,subs=[0,0,0,0,0];all.forEach((item,i)=>{const picked=+document.querySelector(`input[name=q${i+1}]:checked`).value;if(picked===item.q[2]){score++;subs[item.si]++}});const pct=score/40*100;const band=pct>=88?'Outstanding':pct>=75?'Strong':pct>=60?'Developing':pct>=45?'Foundation':'Needs support';const name=document.getElementById('studentName').value.trim();const school=document.getElementById('schoolName').value.trim();const r=document.getElementById('results');r.innerHTML=`<p class="eyebrow">Test complete${name?', '+escapeText(name):''}</p><h2>Your result</h2><p><strong>School:</strong> ${escapeText(school)}</p><div class="score-ring" style="--score:${pct*3.6}deg"><div class="score-text"><strong>${score}</strong><span>out of 40</span></div></div><span class="band">${band} · ${Math.round(pct)}%</span><div class="breakdown">${sections.map((s,i)=>`<div class="break"><strong>${subs[i]}/8</strong><small>${s.name}</small></div>`).join('')}</div><div class="actions"><button class="secondary" onclick="document.querySelector('.feedback').scrollIntoView({behavior:'smooth',block:'center'})">Review explanations</button><button class="secondary" onclick="window.print()">Print result</button><button class="secondary" onclick="location.reload()">Retake test</button></div>`;r.classList.remove('hidden');document.getElementById('submitBtn').disabled=true;r.scrollIntoView({behavior:'smooth',block:'start'})};
+const practiceAdvice=[
+ 'Identify the relationship first (cause/effect, creator/work, opposites), then test each pair against it.',
+ 'Use context clues and practise inversion, conditional sentences, linking words, and precise vocabulary.',
+ 'Review subject–verb agreement, past perfect, subjunctive forms, and dangling modifiers.',
+ 'Group words by meaning, contrast synonyms with antonyms, and revise unfamiliar vocabulary.',
+ 'Support each answer with passage evidence; distinguish main ideas, inference, tone, and metaphor.'
+];
+function finishTest(timedOut=false){
+ if(finished||deadline===null)return;
+ timedOut=timedOut||Date.now()>=deadline;
+ if(!timedOut&&answers.some(a=>a===null)){
+  document.getElementById('warning').classList.remove('hidden');
+  document.querySelectorAll('.question')[[...answers].findIndex(a=>a===null)].scrollIntoView({behavior:'smooth',block:'center'});return;
+ }
+ finished=true;completedAt=timedOut?deadline:Date.now();clearInterval(timerInterval);timerInterval=null;
+ restoreSelections();document.querySelectorAll('input[type=radio]').forEach(input=>{input.disabled=true});
+ document.getElementById('submitBtn').disabled=true;document.getElementById('warning').classList.add('hidden');
+ document.getElementById('timer').textContent=timedOut?'00:00':document.getElementById('timer').textContent;
+ document.getElementById('timerNotice').textContent=timedOut?'Time is up · Answers submitted automatically.':'Attempt submitted · Timer stopped.';
+ let score=0;const stats=sections.map(s=>({name:s.name,total:s.qs.length,correct:0,wrong:0,unanswered:0,review:[]}));
+ all.forEach((item,i)=>{
+  const stat=stats[item.si];const pick=answers[i];
+  if(pick===null){stat.unanswered++;stat.review.push(i+1)}
+  else if(pick===item.q[2]){score++;stat.correct++}
+  else{stat.wrong++;stat.review.push(i+1)}
+ });
+ stats.forEach(s=>{s.pct=s.correct/s.total*100});
+ const pct=score/all.length*100;const band=pct>=88?'Outstanding':pct>=75?'Strong':pct>=60?'Developing':pct>=45?'Foundation':'Needs support';
+ const strengths=stats.filter(s=>s.pct>=75);const weaknesses=stats.filter(s=>s.pct<60);const developing=stats.filter(s=>s.pct>=60&&s.pct<75);
+ const name=escapeText(document.getElementById('studentName').value.trim());const school=escapeText(document.getElementById('schoolName').value.trim());
+ const date=escapeText(new Date(completedAt).toLocaleString('en-GB',{dateStyle:'long',timeStyle:'short'}));
+ const elapsed=Math.min(TEST_DURATION_MS,Math.max(0,completedAt-attemptStartedAt));
+ const elapsedSeconds=Math.floor(elapsed/1000);const duration=`${Math.floor(elapsedSeconds/60)}m ${elapsedSeconds%60}s`;
+ const unanswered=answers.filter(a=>a===null).length;
+ const r=document.getElementById('results');
+ r.innerHTML=`<p class="eyebrow">Test complete, ${name}</p><h2>Your performance report</h2><p><strong>School:</strong> ${school}</p>
+ <p>${timedOut?'Automatically submitted after 90 minutes.':'Submitted by student.'} · Time used: ${duration}<br>Completed: ${date} (local time)</p>
+ <div class="score-ring" style="--score:${pct*3.6}deg"><div class="score-text"><strong>${score}</strong><span>out of ${all.length}</span></div></div>
+ <span class="band">${band} · ${Math.round(pct)}%</span><p>${score} correct · ${all.length-score-unanswered} incorrect · ${unanswered} unanswered</p>
+ <p class="report-note">This practice result reflects your latest choices after immediate feedback. It is not an official Qiyas score or a certified language proficiency level.</p>
+ <div class="breakdown">${stats.map(s=>`<div class="break"><strong>${s.correct}/${s.total}</strong><small>${s.name} · ${Math.round(s.pct)}%</small></div>`).join('')}</div>
+ <div class="analysis-grid"><section><h3>Strengths · 75% or above</h3><p>${strengths.length?strengths.map(s=>`${s.name} (${Math.round(s.pct)}%)`).join(', '):'No section has reached the strength threshold yet. Build accuracy through guided practice.'}</p></section>
+ <section><h3>Priority support · Below 60%</h3><p>${weaknesses.length?weaknesses.map(s=>`${s.name} (${Math.round(s.pct)}%)`).join(', '):'No section is below 60%. Focus on consistency and any missed questions.'}</p></section>
+ <section><h3>Developing skills · 60–74%</h3><p>${developing.length?developing.map(s=>`${s.name} (${Math.round(s.pct)}%)`).join(', '):'No sections in this range.'}</p></section></div>
+ <h3>Section analysis and next steps</h3><div class="report-table-wrap"><table class="report-table"><thead><tr><th scope="col">Section</th><th scope="col">Correct / Wrong / Unanswered</th><th scope="col">Practice plan</th></tr></thead><tbody>${stats.map((s,i)=>`<tr><th scope="row">${s.name}<br>${Math.round(s.pct)}%</th><td>${s.correct} / ${s.wrong} / ${s.unanswered}</td><td>${practiceAdvice[i]}<br><strong>${s.review.length?'Review questions: '+s.review.join(', '):'All correct: consolidate with fresh questions.'}</strong></td></tr>`).join('')}</tbody></table></div>
+ <p>${unanswered?'Complete missed questions during your next attempt and check your pace every 15 minutes.':'For your next attempt, review the explanations for missed questions before practising new examples.'}</p>
+ <section id="certificate" class="certificate"><p class="certificate-brand">Mindproo Academy</p><h2>Certificate of Appreciation</h2><p>Presented to</p><h3 class="certificate-name">${name}</h3><p>From ${school}</p><p>With thanks and appreciation for your participation, effort, and commitment to developing your English verbal skills.</p><p><strong>GAT Verbal English Practice Test</strong><br>Result: ${score}/${all.length} · ${Math.round(pct)}% · ${band}</p><p>Completed: ${date} (local time)</p><p class="certificate-footer">Mindproo Academy · Learning through practice</p></section>
+ <div class="actions"><button class="secondary" id="reviewBtn">Review explanations</button><button class="secondary" id="printReportBtn">Print report</button><button class="secondary" id="printCertificateBtn">Print certificate</button><button class="secondary" id="retakeBtn">Retake test</button></div>`;
+ r.classList.remove('hidden');
+ document.getElementById('reviewBtn').onclick=()=>{const target=document.querySelector('.feedback:not(.hidden)')||document.querySelector('.question');target.scrollIntoView({behavior:'smooth',block:'center'})};
+ document.getElementById('printReportBtn').onclick=()=>printResults(false);
+ document.getElementById('printCertificateBtn').onclick=()=>printResults(true);
+ document.getElementById('retakeBtn').onclick=()=>location.reload();
+ r.scrollIntoView({behavior:'smooth',block:'start'});
+}
+function printResults(certificateOnly){document.body.classList.toggle('print-certificate',certificateOnly);try{window.print()}finally{document.body.classList.remove('print-certificate')}}
+window.addEventListener('afterprint',()=>document.body.classList.remove('print-certificate'));
+document.getElementById('submitBtn').onclick=()=>finishTest();
 </script>
 </body>
 </html>
